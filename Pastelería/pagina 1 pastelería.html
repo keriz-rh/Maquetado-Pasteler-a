@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina 1 pastelería.CSS">
+    <title>Pastelería</title>
+</head>
+<body>
+    <header>
+        <h1>Pastelería Keriz-Cake</h1>
+    </header>
+        <img src="Logo pasteleria.png" alt="logo pastelería">
+<div class="container catalogo">    
+ <section>
+            <h2>Catalogo</h2>
+    <ul>
+       <div class="container-weeding boda"><h3>Pasteles para Bodas.</h3>
+            <li><b>Fresas</b></li>
+                <ul> 
+                <li>16 porciones................$9</li> 
+                <li>8 porciones................$5</li>
+                </ul>
+            <li><b>Chocolate</b></li>
+            <ul> 
+                <li>16 porciones................$9</li> 
+                <li>8 porciones................$5</li>
+                </ul>
+            <li><b>Vainilla</b></li>
+            <ul> 
+                <li>16 porciones................$9</li> 
+                <li>8 porciones................$5</li>
+                </ul>
+        </div>
+        <div class="containe-party cumplaños">
+        <h3>Pasteles para Cumpleaños.</h3>
+            <li><b>Fresas</b></li>
+            <ul> 
+            <li>16 porciones................$9</li> 
+            <li>8 porciones................$5</li>
+            </ul>
+        <li><b>Chocolate</b></li>
+        <ul> 
+            <li>16 porciones................$9</li> 
+            <li>8 porciones................$5</li>
+            </ul>
+        <li><b>Vainilla</b></li>
+        <ul> 
+            <li>16 porciones................$9</li> 
+            <li>8 porciones................$5</li>
+            </ul>
+        </div>    
+
+        <div class="container-Baby  babyshower">
+            <h3>Pasteles para Baby Shower.</h3>
+            <li><b>Fresas</b></li>
+            <ul> 
+            <li>16 porciones................$9</li> 
+            <li>8 porciones................$5</li>
+            </ul>
+        <li><b>Chocolate</b></li>
+        <ul> 
+            <li>16 porciones................$9</li> 
+            <li>8 porciones................$5</li>
+            </ul>
+        <li><b>Vainilla</b></li>
+        <ul> 
+            <li>16 porciones................$9</li> 
+            <li>8 porciones................$5</li>
+            </ul>
+        </div>
+        <div class="container-decoration decoraciones"></div>
+    <h2>Decoraciones</h2>
+        <li>Rosas</li>
+        <li>Globos</li>
+        <li>Listones</li>
+    </ul>
+</div> 
+<br>
+</section>
+<section>
+<div class="container-order pedidos">    
+    <h2>Pedidos</h2> 
+    <h3>Haz tu pedido aquí</h3>
+    <form action="">
+        <p>Seleccione el tipo de pastel desea:</p> <br>
+    <input type="checkbox" name="boda" id="boda">
+    <label for="boda">boda</label>
+    <br><br>
+    <input type="checkbox" name="cumpleaños" id="cumpoleaños">
+    <label for="cumpleaños">cumpleaños</label>
+    <br><br>
+    <input type="checkbox" name="babyshower" id="babyshower">
+    <label for="babyshower">babyshower</label>
+    <br><br>
+
+        <p>¿Qué sabores prefieres?</p> <br>
+        <input type="checkbox" name="fresa" id="fresa">
+        <label for="fresa">Fresa</label> 
+        <br><br>
+        <input type="checkbox" name="chocolate" id="chocolate">
+        <label for="chocolate">Chocolate</label>
+        <br><br>
+        <input type="checkbox" name="vainilla" id="vainilla">
+        <label for="vainilla">Vainilla</label>
+        </select>
+        <br><br>
+        <label for="porcion">¿De cuantas porciones?</label><br><br>
+        <select name="porciones" id="porciones">
+        <option value="16 porciones">16 porciones</option>
+        <br><br>
+        <option value="8 porciones">8 porciones</option>
+        </select>
+        <br><br>
+
+        <section>
+        <p>¿Qué adornos prefieres?</p> <br>
+        <input type="checkbox" name="rosas" id="rosas">
+        <label for="rosas">Rosas</label> 
+        <br><br>
+        <input type="checkbox" name="globos" id="globos">
+        <label for="globos">Globos</label> 
+        <br><br>
+        <input type="checkbox" name="listones" id="listones">
+        <label for="listones">Listones</label> 
+        <br><br>
+        <p>¿Tienes algún diseño en especial? ¡Envianos una foto de referencia!</p>
+        <form method="post" enctype="multipart/form-data"> <br>
+            <p>
+                <label for="uploads">Elige una imagen ".jpg" o ".png" que desees cargar:</label>
+                <input type="file" name="uploads" id="uploads" accept=".jpg, .png" multiple>        
+            </p>
+    </form>
+    </div>
+    </section>
+</form>
+</section>
+<div class="container-data">
+<form action="">
+<section>
+<h2>Datos de envio</h2>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" name="nombre" id="nombre" placeholder="¿Cómo te llamas?"><br>
+<br>
+    <label for="numero">Numero telefonico:</label><br>
+    <input type="number" name="numero" id="numero" placeholder="¿Cúal es tu numero de telefono?"><br>
+<br>
+    <label for="email">Correo electrónico</label><br>
+    <input type="email" name="email" id="email" placeholder="¿Cual es tu correo electrónico?"> <br><br>
+   <div class="container-button order"><input type="button" value="Enviar pedido"></div>
+ </section>
+</form>
+</div>
+ <section> <br>
+    <h2>Ubicación</h2>
+        <Table>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horiarios de atención</th>
+            <tr>
+                <td>pasteleria Keriz</td>
+                <td><a href="https://g.page/CPSMB?share" target="_blank">Central park</a></td>
+                <td>L-S 8:30 am a 5:30 pm</td>
+            </tr>
+        </Table>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24754279.258833185!2d-91.8372161371809!3d40.76724580000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590c7d05a6fd%3A0xf41c612405d92aa0!2sMagnolia%20Bakery%20-%20Central%20Park%20South!5e0!3m2!1ses-419!2ssv!4v1666802277533!5m2!1ses-419!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </section>
+</body>
+</html>
