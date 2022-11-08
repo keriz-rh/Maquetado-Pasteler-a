@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h2{
+    text-align: center;
+}
+
+.body{
+    width: 100%;
+}
+
+/*Head*/
+ .header{
+    background: url("fondo\ header.jpg");
+
+ }
+
+ /*Banner inicio*/
+
+ .banner-inicio{
+    margin-top: 5vh;
+}
+.banner img{
+    width: 200%;
+    height: 200%;
+    
+}
+
+/*Catalogo*/
+
+.container-catalogo{
+    display: flex;
+    background-color: #f0f4f3;
+    padding: 0%;
+    flex-wrap: wrap;
+}
+
+.container-catalogo div{
+    margin-top: 1vh;
+    width: 500px;
+    height: 675px;
+    margin: 75px;
+    border-radius: 30px;
+    background-color: #46bbaf;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 227px;
+height: 259px;
+left: 138px;
+top: 585px;
+
+background: #D9D9D9;
+opacity: 0.3;
+border-radius: 30px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablas en general*/
+.table {
+    width: 100%;
+    border: 1px solid rgba(44, 206, 212, 0.832);
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: rgba(180, 111, 183, 0.766);
+     background: #000;
+ }
+ th {
+    background: #46bbaf;
+ }
