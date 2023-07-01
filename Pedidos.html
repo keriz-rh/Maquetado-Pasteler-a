@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina 1.CSS">
+    <title>Pedidos</title>
+</head>
+<body>
+    <header> 
+        <nav class="nav"> 
+            <a href="index.html"><h1>Keriz-Cake</h1></a>
+            <a href="pagina 1 pastelería.html" class="nav-enlace">Catalogo</a>
+            <a href="Pedidos.html" class="nav-enlace">Pedidos</a>
+        </nav>
+    </header>
+    <hr>
+<main>
+        <div class="banner-inicio" id="banner-inicio">
+            <img src="banner pasteleria.png" alt="banner-pasteleria." width="1540" height="504" >
+        </div>     
+    <section>
+        <div class="h2">
+            <h2>Pedidos</h2> 
+        </div> 
+        <div class="container-order" id="order"> <br>
+            <div>  
+                <img src="https://previews.123rf.com/images/kakigori/kakigori1701/kakigori170100001/69028818-pescado-fresco-y-pan-de-la-canasta-de-pan-panader%C3%ADa-suave.jpg" alt="canasta de pan" width="300" height="300">
+                <h3>Haz tu pedido aquí</h3><br>
+                <form action="">
+                    <b>Seleccione cuantos pasteles desea comprar.</b> <br>
+                        <input type="number" name="#pasteles" id="#pasteles" placeholder="¿Cuantos deseas?">
+                    <b><p>Seleccione el tipo de pastel desea:</p></b>
+                            <input type="checkbox" name="boda" id="boda">
+                            <label for="boda">boda</label>
+                            <br><br>
+                            <input type="checkbox" name="cumpleaños" id="cumpoleaños">
+                            <label for="cumpleaños">cumpleaños</label>
+                            <br><br>
+                            <input type="checkbox" name="babyshower" id="babyshower">
+                            <label for="babyshower">babyshower</label>
+                    <br><br>
+                    <b><p>¿Qué sabores prefieres?</p></b>
+                        <input type="checkbox" name="fresa" id="fresa">
+                        <label for="fresa">Fresa</label> 
+                        <br><br>
+                        <input type="checkbox" name="chocolate" id="chocolate">
+                        <label for="chocolate">Chocolate</label>
+                        <br><br>
+                        <input type="checkbox" name="vainilla" id="vainilla">
+                        <label for="vainilla">Vainilla</label>
+                        </select>
+                        <br>
+                        <b> <label for="porcion"> ¿De cuantas porciones?</label></b><br>
+                        <select name="porciones" id="porciones">
+                        <option value="16 porciones">16 porciones</option>
+                        <option value="8 porciones">8 porciones</option>
+                        </select>
+                        <br><br>
+                        <b><label for="porcion">¿Deseas algun otro numero de porciones? Escribelo.</label></b>
+                        <br>
+                        <input type="number" name="porcion" id="porcion" placeholder="Escribe otro numero de porciones">
+                
+                    <b><p>¿Qué adornos prefieres?</p></b>
+                        <input type="checkbox" name="flores" id="flores">
+                        <label for="flores">Flores</label> <br>
+                        <br>
+                        <input type="checkbox" name="globos" id="globos">
+                        <label for="globos">Globos</label><br>
+                        <br>
+                        <input type="checkbox" name="Velas" id="Velas">
+                        <label for="Velas">Velas</label> <br>
+                        <br>
+                    <b><p>¿Tienes algún diseño en especial? ¡Envianos una foto de referencia!</p></b> 
+                        <form method="post" enctype="multipart/form-data"> 
+                            <p>
+                                <label for="uploads">Elige una imagen ".jpg" o ".png" que desees cargar:</label>
+                                <input type="file" name="uploads" id="uploads" accept=".jpg, .png" multiple>           
+                            </p>
+                        </form>    
+                </form>    
+            </div> 
+    </section>            
+    <br>
+<div class="container-data">
+    <div>
+        <form action="">
+            <section>
+            <h2>Datos de envio</h2>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre" placeholder="¿Cómo te llamas?"><br>
+                <br>
+                <label for="numero">Numero telefonico:</label><br>
+                <input type="number" name="numero" id="numero" placeholder="¿Cúal es tu numero de telefono?"><br>
+                <br>
+                <label for="email">Correo electrónico</label><br>
+                <input type="email" name="email" id="email" placeholder="¿Cual es tu correo electrónico?"> <br><br>
+                
+                <input type="button" value="Enviar pedido">               
+            </section>
+        </form>
+    </div>
+</div>
+<section><br>
+    <footer>
+        <div>
+            <h2>Ubicación</h2>
+            <Table>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horiarios de atención</th>
+                <tr>
+                    <td>pasteleria Keriz</td>
+                    <td><a href="https://g.page/CPSMB?share" target="_blank">Central park</a></td>
+                    <td>L-S 8:30 am a 5:30 pm</td>
+                </tr>
+            </Table>
+    </div>  
+    </footer>     
+</section> 
+</body>
+</html>
